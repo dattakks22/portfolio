@@ -1,0 +1,149 @@
+.menuIcon {
+    font-size: 3rem;
+    display: none;
+}
+
+.menuIcon:hover {
+    background-color: #00A8E1;
+    border-radius: 5px;
+}
+
+
+
+.navbarcontainer {
+    height: 5rem;
+    width: 100vw;
+    max-width: 80rem;
+    padding: 5px 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-image: url('../../requrements/bg2.jpg');
+
+
+
+}
+
+.logo {
+    height: 15vh;
+}
+
+.nav_link {
+    margin: 2vw;
+    cursor: pointer;
+}
+
+.nav_link:hover {
+    color: #00A8E1;
+    border-bottom: 2px solid #00A8E1;
+}
+
+.nav_button {
+    border: none;
+    background-color: #F9F3E6;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 20px;
+}
+
+.nav_button:hover {
+    background-color: #00A8E1;
+    color: #F9F3E6
+}
+
+
+.navBarIcon {
+    font-size: 2.5vh;
+    color: black;
+    margin-right: 2px;
+    margin-top: 4px;
+}
+
+
+
+
+.active {
+    color: #00A8E1;
+    border-bottom: 3px solid #00A8E1;
+    padding-bottom: 0.5rem;
+}
+
+
+@media screen and (max-width: 822px) {
+
+    .logo {
+        height: 5rem;
+    }
+
+    .nav_items {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+
+    }
+
+    .nav_button {
+        display: none;
+    }
+
+    .nav_link {
+        width: 100%;
+        text-align: center;
+    }
+    .menuIcon{
+        display: flex;
+    }
+
+
+}
+
+.mobile_nav_items {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    z-index: 90;
+    background-color: #000000;
+    color: white;
+    box-shadow: -5px 0 10px white;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.mobileListItem {
+    cursor: pointer;
+    margin: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+.mobileListItem:hover {
+    border-bottom: 2px solid #00A8E1;
+    color: #00A8E1;
+
+}
+
+.closeIcon {
+    font-size: 2rem;
+}
+
+
+
+
+

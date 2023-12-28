@@ -1,0 +1,130 @@
+#contectPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contectpageTitle {
+    font-size: 3rem;
+    margin: 1rem;
+
+
+}
+
+.clientsDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.clientImges {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.clientImg {
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+
+}
+
+.clients {
+    padding: 2rem;
+    max-width: 40rem;
+}
+
+.contectDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+
+}
+
+.contectForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.nameInput {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding:0.5rem 1rem;
+    color: white;
+    border: none;
+    background: #282828;
+
+}
+
+.emailInput{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding:0.5rem 1rem;
+    color: white;
+    border: none;
+    background: #282828;
+
+}
+
+.msgInput{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding:0.5rem 1rem;
+    color: white;
+    border: none;
+    background: #282828;
+
+}
+
+.submitbutton {
+    background: white;
+    border: none;
+    padding: 0.75rem 3rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.submitbutton:hover {
+    background-color: #00A8E1;
+    color: white
+}
+
+.links {
+    width:100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin:0 0.75rem;
+    flex-wrap: wrap;
+}
+
+
+

@@ -1,0 +1,64 @@
+#work {
+    min-height: (100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+    padding:0 1rem;
+
+}
+
+
+.workTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+
+}
+
+.workDesc {
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 2rem;
+    max-width: 45rem;
+}
+
+.projectImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+
+}
+
+.projectlogo{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+}
+
+.seeMorebtn{
+    background: white;
+    padding: 0.5rem 2.5rem;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 3rem 0rem;
+
+}
+
+@media screen and (max-width: 585px){
+    .projectlogo{
+height: 45vw;
+    }
+
+   
+}

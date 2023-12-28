@@ -1,0 +1,156 @@
+#home {
+    height: celc(100vh-4rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-image: url('../../requrements/bg.jpg');
+    background-size:cover;
+    z-index: 0;
+
+
+}
+
+.profilPick {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    Z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.homeContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+
+}
+
+.nametile {
+    color: #00A8E1;
+}
+
+
+
+.description {
+    font-size: small;
+    font-weight: 300;
+    
+
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 2rem;
+    margin-left: 5px;
+    margin-top: 10px;
+   
+}
+
+.btn:hover {
+    background-color: #00A8E1;
+    color: white
+}
+
+.icon {
+    font-size: 3vh;
+    color: "black";
+    margin-top: 3px;
+}
+
+.buttonname {
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width:819px) {
+
+    .profilPick {
+        right:-18vw; 
+        
+    }
+
+    .homeContent{
+        font-size: 5.5vw;
+    }
+
+    .hello{
+        font-size: 3.5vw;
+    }
+    
+   
+
+    .btn {
+
+        height: 50px;
+        width: 150px;
+        border-radius: 25px;
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    .icon {
+        font-size: 25px;
+        color: "black";
+        margin-top: 3px;
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+
+
+
+    .profilPick {
+        right:-60vw; 
+        
+    }
+
+    #home{
+        padding: 20px
+    }
+
+    
+    
+
+    .btn {
+
+        height: 40px;
+        width: 120px;
+        border-radius: 15px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .icon {
+        font-size: 18px;
+        color: "black";
+        margin-top: 3px;
+    }
+
+}
+
+.reactcolor:hover{
+    color : #ff9900
+}
