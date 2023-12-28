@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar/navbar";
+import NavBar from './components/NavBarop/navbar';
 import Home from './components/Home/home';
 import Skills from './components/Skill/skill';
 import Work from './components/Works/work';
@@ -8,12 +8,13 @@ import Footer from "./components/Footer/footer"
 function App() {
   return (
     <div className="App">
-      <><NavBar/>
+   
+      <NavBar/>
       <Home/>
       <Skills/>
       <Work/>
       <Contect/>
-      <Footer/></>
+      <Footer/>
       
     </div>
   );
