@@ -6,7 +6,7 @@ import { FaWindowClose } from "react-icons/fa";
 import logo from "../../requrements/Datta_Gangadhar-removebg-preview.png";
 import "./navbar.css";
 
-const NavBar = () => {
+const NavBar_ = () => {
 
   const showSidebar = () => {
     const sidebar = document.querySelector('.mobile_nav_items');
@@ -53,5 +53,5 @@ const NavBar = () => {
 
 
 
-export default NavBar;
+export default NavBar_;
 
